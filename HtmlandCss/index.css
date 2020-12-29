@@ -1,0 +1,170 @@
+/*Header-top*/
+.nav{
+    background-color:tomato;
+    margin: auto;
+    padding: 5px;
+    color:white;
+    display: flex;
+}
+#logo{
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+.header{
+    font:40px Courier, monospace !important;
+    padding:30px;
+    color:white;
+    font-weight:20px;
+}
+.user{
+    font:25px Times-New-Roman ;
+    padding:35px 35px 30px 450px;
+}
+p > Button{
+    width:120px;
+    height:60px;
+    background-color: navajowhite;
+    color:tomato;
+    font:20px Verdana !important;
+    /*margin:10px !important;*/
+    padding-top:20px !important;
+    padding-left:20px;
+    /*display:flex;*/
+    border:0px solid tomato;
+}
+
+
+/*Content Details*/
+.content{
+    background-color:white;
+    margin:auto;
+    border: 10px solid tomato;
+}
+Button{
+    width:300px;
+    height:150px;
+    background-color: navajowhite;
+    color:tomato;
+    font:25px Verdana !important;
+    /*margin:10px !important;*/
+    padding-top:50px !important;
+    padding-left:40px;
+    display:flex;
+    border:0px solid white;
+}
+.content :focus{
+    opacity:1.0;
+    background-color:tomato;
+    color:white;
+}
+
+.con_detail1 > h1{
+    padding-top: 10px;
+    margin-left: 500px;
+    margin-top: auto;
+    color: tomato;
+    font-size: xx-large;
+}
+.con_detail2 > h1{
+    padding-top: 30px;
+    margin-left: 550px;
+    margin-top: auto;
+    color: tomato;
+    font-size: xx-large;
+}
+.con_detail3 > h1{
+    padding-top: 30px;
+    margin-left: 550px;
+    margin-top: auto;
+    color: tomato;
+    font-size: xx-large;
+}
+.con_detail4 > h1{
+    padding-top: 30px;
+    margin-left: 500px;
+    margin-top: auto;
+    color: navajowhite;
+    font-size: xx-large;
+    background-color: tomato;
+    border: 1px solid tomato;
+    width: 170px;
+    height: 75px;
+    border-radius: 50%;
+    text-align: center;
+}
+#blouse_list{
+    width:200px;
+    height: 200px;
+    display:-webkit-flex;
+    padding-left: 190px;
+}
+.churidhars_list{
+    width:200px;
+    height: 200px;
+    display:-webkit-flex;
+    padding-left: 220px;
+}
+.lehanghas_list{
+    width:200px;
+    height: 200px;
+    display:-webkit-flex;
+    padding-left: 260px;
+}
+.frock_list{
+    width:200px;
+    height: 200px;
+    display:-webkit-flex;
+    padding-left: 250px;
+    padding-bottom: 50px;
+}
+/*Footer part*/
+.footer{
+    margin: auto;
+    background-color:tomato;
+    padding:50px;
+    display: flex;
+    font-size: 20px;
+}
+.home,.contact >li{
+    list-style-type:square;
+}
+.home{
+    margin-left:50px;
+}
+.contact{
+    margin-left: 200px;
+}
+@media screen and (max-width:500px)
+{
+    .header{
+        padding-left: 10px;
+    }
+    .user{
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+    p>Button{
+        padding-top: 50px;
+        padding-right: 50px;
+    }
+    .con_detail1 >h1{
+        padding-left:25px !important;
+    }
+    #blouse_list{
+        padding-left:50px ;
+    }
+    Button{
+        width:150px;
+        padding-left:20px;
+        font:20px Verdana !important;
+    }
+    .home{
+        margin:10px;
+        margin-top:20px;
+    }
+    .contact{
+        margin:30px;
+        margin-top:20px;
+    }
+}
